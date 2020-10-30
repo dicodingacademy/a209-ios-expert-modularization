@@ -13,6 +13,7 @@
 		2A5884ED254963CD000F80AE /* OpenSansCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A5884BC25495913000F80AE /* OpenSansCondensed-LightItalic.ttf */; };
 		2A5884EE254963CD000F80AE /* OpenSansCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A5884BB25495913000F80AE /* OpenSansCondensed-Bold.ttf */; };
 		2A5884EF254963CD000F80AE /* OpenSansCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A5884BA25495913000F80AE /* OpenSansCondensed-Light.ttf */; };
+		2A588503254BC0AD000F80AE /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A588502254BC0AC000F80AE /* String+Localization.swift */; };
 		E10F59D20E8EC92AB6A55A72 /* Pods_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 119C3EC8A3783A10A8746372 /* Pods_Common.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		2A5884BA25495913000F80AE /* OpenSansCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSansCondensed-Light.ttf"; sourceTree = "<group>"; };
 		2A5884BB25495913000F80AE /* OpenSansCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSansCondensed-Bold.ttf"; sourceTree = "<group>"; };
 		2A5884BC25495913000F80AE /* OpenSansCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSansCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		2A588502254BC0AC000F80AE /* String+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
 		56ECFF28AECDD3BFA0B4231B /* Pods-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common.debug.xcconfig"; path = "Target Support Files/Pods-Common/Pods-Common.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,7 +49,6 @@
 			children = (
 				2A5884B62549588E000F80AE /* Fonts */,
 				2A588495254942C1000F80AE /* Assets.xcassets */,
-				2A57330E2546BA8B00E24732 /* Hello.swift */,
 				2A5732FE2546B99F00E24732 /* Common */,
 				2A5732FD2546B99F00E24732 /* Products */,
 				4DCA49C6289AA22B30E5FCAB /* Pods */,
@@ -66,6 +67,8 @@
 		2A5732FE2546B99F00E24732 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				2A57330E2546BA8B00E24732 /* Hello.swift */,
+				2A588502254BC0AC000F80AE /* String+Localization.swift */,
 				2A5732FF2546B99F00E24732 /* Common.h */,
 				2A5733002546B99F00E24732 /* Info.plist */,
 			);
@@ -154,6 +157,8 @@
 			knownRegions = (
 				en,
 				Base,
+				id,
+				ja,
 			);
 			mainGroup = 2A5732F22546B99F00E24732;
 			productRefGroup = 2A5732FD2546B99F00E24732 /* Products */;
@@ -210,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A57330F2546BA8B00E24732 /* Hello.swift in Sources */,
+				2A588503254BC0AD000F80AE /* String+Localization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Common
 
 public struct ProductView<Destination: View> : View {
   let action: (() -> Destination)
@@ -29,6 +30,6 @@ public struct ProductView<Destination: View> : View {
       NavigationLink(destination: self.action()) {
         Text("Open Cart")
       }
-    }.navigationBarTitle("Product")
+    }.navigationBarTitle("product_title".localized(identifier: "com.dicoding.academy.Product"))
   }
 }
