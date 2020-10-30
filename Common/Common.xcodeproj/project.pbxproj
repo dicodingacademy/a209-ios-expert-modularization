@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2A5733012546B99F00E24732 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5732FF2546B99F00E24732 /* Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A57330F2546BA8B00E24732 /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57330E2546BA8B00E24732 /* Hello.swift */; };
+		2A588496254942C1000F80AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A588495254942C1000F80AE /* Assets.xcassets */; };
 		E10F59D20E8EC92AB6A55A72 /* Pods_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 119C3EC8A3783A10A8746372 /* Pods_Common.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,6 +20,7 @@
 		2A5732FF2546B99F00E24732 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		2A5733002546B99F00E24732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A57330E2546BA8B00E24732 /* Hello.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
+		2A588495254942C1000F80AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56ECFF28AECDD3BFA0B4231B /* Pods-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common.debug.xcconfig"; path = "Target Support Files/Pods-Common/Pods-Common.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,6 +39,7 @@
 		2A5732F22546B99F00E24732 = {
 			isa = PBXGroup;
 			children = (
+				2A588495254942C1000F80AE /* Assets.xcassets */,
 				2A57330E2546BA8B00E24732 /* Hello.swift */,
 				2A5732FE2546B99F00E24732 /* Common */,
 				2A5732FD2546B99F00E24732 /* Products */,
@@ -150,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A588496254942C1000F80AE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

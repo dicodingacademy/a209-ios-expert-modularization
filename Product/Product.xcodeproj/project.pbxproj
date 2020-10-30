@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A57333D2547F58E00E24732 /* Product.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A57333B2547F58E00E24732 /* Product.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A58849225493303000F80AE /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A58849125493303000F80AE /* Common.framework */; };
 		2ADA6DDD2549089800794F3B /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADA6DDC2549089800794F3B /* ProductView.swift */; };
 		2ADA6DE02549123F00794F3B /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADA6DDF2549123F00794F3B /* ProductDetailView.swift */; };
 		A878C071A2E606CFEFDA9DB1 /* Pods_Product.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A5DD21D77BB5F2CD9BB95E /* Pods_Product.framework */; };
@@ -17,6 +18,7 @@
 		2A5733382547F58E00E24732 /* Product.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Product.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A57333B2547F58E00E24732 /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
 		2A57333C2547F58E00E24732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A58849125493303000F80AE /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ADA6DDC2549089800794F3B /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		2ADA6DDF2549123F00794F3B /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		49A5DD21D77BB5F2CD9BB95E /* Pods_Product.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Product.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,6 +32,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A878C071A2E606CFEFDA9DB1 /* Pods_Product.framework in Frameworks */,
+				2A58849225493303000F80AE /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +71,7 @@
 		82FEA9D38C68D8030B1A81FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2A58849125493303000F80AE /* Common.framework */,
 				49A5DD21D77BB5F2CD9BB95E /* Pods_Product.framework */,
 			);
 			name = Frameworks;
