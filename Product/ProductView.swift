@@ -23,6 +23,9 @@ public struct ProductView<Destination: View> : View {
       Text("Hi, i'm using Quicksand as Font")
         .font(.custom("Quicksand-Regular", size: 20))
 
+      Text("Hi, i'm using framework's Open Sans as Font")
+        .font(.custom("OpenSansCondensed-LightItalic", size: 20))
+
       NavigationLink(destination: self.action()) {
         Text("Open Cart")
       }
