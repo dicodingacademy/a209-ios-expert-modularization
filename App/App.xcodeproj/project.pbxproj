@@ -13,6 +13,10 @@
 		2A5732EA2546B94B00E24732 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5732E92546B94B00E24732 /* Preview Assets.xcassets */; };
 		2A5733122546BA9900E24732 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5733112546BA9900E24732 /* Common.framework */; };
 		2A5733132546BA9900E24732 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5733112546BA9900E24732 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2ADA6DD5254907D300794F3B /* Cart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADA6DD3254907D300794F3B /* Cart.framework */; };
+		2ADA6DD6254907D300794F3B /* Cart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADA6DD3254907D300794F3B /* Cart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2ADA6DD7254907D300794F3B /* Product.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADA6DD4254907D300794F3B /* Product.framework */; };
+		2ADA6DD8254907D300794F3B /* Product.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADA6DD4254907D300794F3B /* Product.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DC5071920972D8BDD1B69604 /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CEFD8E703F3492C784C7E6 /* Pods_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2ADA6DD6254907D300794F3B /* Cart.framework in Embed Frameworks */,
+				2ADA6DD8254907D300794F3B /* Product.framework in Embed Frameworks */,
 				2A5733132546BA9900E24732 /* Common.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -39,6 +45,8 @@
 		2A5732E92546B94B00E24732 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A5732EB2546B94B00E24732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A5733112546BA9900E24732 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADA6DD3254907D300794F3B /* Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADA6DD4254907D300794F3B /* Product.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Product.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B031618B5B27F5FC1A5C7B /* Pods-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.debug.xcconfig"; path = "Target Support Files/Pods-App/Pods-App.debug.xcconfig"; sourceTree = "<group>"; };
 		F9CEFD8E703F3492C784C7E6 /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -50,6 +58,8 @@
 			files = (
 				DC5071920972D8BDD1B69604 /* Pods_App.framework in Frameworks */,
 				2A5733122546BA9900E24732 /* Common.framework in Frameworks */,
+				2ADA6DD7254907D300794F3B /* Product.framework in Frameworks */,
+				2ADA6DD5254907D300794F3B /* Cart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +116,8 @@
 		7E272B7D73BD2F7E21118F30 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2ADA6DD3254907D300794F3B /* Cart.framework */,
+				2ADA6DD4254907D300794F3B /* Product.framework */,
 				2A5733112546BA9900E24732 /* Common.framework */,
 				F9CEFD8E703F3492C784C7E6 /* Pods_App.framework */,
 			);
