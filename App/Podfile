@@ -20,3 +20,7 @@ end
 target 'Product' do
 project '../Product/Product'
 end
+
+target 'Core' do
+project '../Core/Core'
+end

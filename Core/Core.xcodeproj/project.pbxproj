@@ -7,82 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DF2F30515DAB92D4453B83E /* Pods_Cart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2D36C93CD9915C6122642A /* Pods_Cart.framework */; };
-		2A5733272547F57700E24732 /* Cart.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5733252547F57700E24732 /* Cart.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A588499254946C6000F80AE /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A58848C2549326D000F80AE /* Common.framework */; };
-		2A588542254BE639000F80AE /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A588541254BE639000F80AE /* Core.framework */; };
-		2ADA6DDA254907F200794F3B /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADA6DD9254907F200794F3B /* CartView.swift */; };
+		2A58852D254BE427000F80AE /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58852B254BE427000F80AE /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A588549254BE693000F80AE /* UseCaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A588548254BE693000F80AE /* UseCaseType.swift */; };
+		A000E8012E5E589097DEDADB /* Pods_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD4482AD89717659DE41272 /* Pods_Core.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		010D85130C8CF7D70020F8F2 /* Pods-Cart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cart.debug.xcconfig"; path = "Target Support Files/Pods-Cart/Pods-Cart.debug.xcconfig"; sourceTree = "<group>"; };
-		0C2D36C93CD9915C6122642A /* Pods_Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A5733222547F57700E24732 /* Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A5733252547F57700E24732 /* Cart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cart.h; sourceTree = "<group>"; };
-		2A5733262547F57700E24732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A58848C2549326D000F80AE /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A588541254BE639000F80AE /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2ADA6DD9254907F200794F3B /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
-		8BA5DFBDCA3C577653121356 /* Pods-Cart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cart.release.xcconfig"; path = "Target Support Files/Pods-Cart/Pods-Cart.release.xcconfig"; sourceTree = "<group>"; };
+		192F8F4E7BAB61FBFA759845 /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.release.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
+		2A588528254BE427000F80AE /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A58852B254BE427000F80AE /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		2A58852C254BE427000F80AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A588548254BE693000F80AE /* UseCaseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseType.swift; sourceTree = "<group>"; };
+		6CD4482AD89717659DE41272 /* Pods_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96159D4BFC6AF7BD92C63BEA /* Pods-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.debug.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2A57331F2547F57700E24732 /* Frameworks */ = {
+		2A588525254BE427000F80AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DF2F30515DAB92D4453B83E /* Pods_Cart.framework in Frameworks */,
-				2A588542254BE639000F80AE /* Core.framework in Frameworks */,
-				2A588499254946C6000F80AE /* Common.framework in Frameworks */,
+				A000E8012E5E589097DEDADB /* Pods_Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A5733182547F57700E24732 = {
+		1410A70526D4C2F04F8EBC32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2ADA6DD9254907F200794F3B /* CartView.swift */,
-				2A5733242547F57700E24732 /* Cart */,
-				2A5733232547F57700E24732 /* Products */,
-				C61A68984B7CD125D4FC435D /* Pods */,
-				4371D7B704FF88980E40CF24 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		2A5733232547F57700E24732 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2A5733222547F57700E24732 /* Cart.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2A5733242547F57700E24732 /* Cart */ = {
-			isa = PBXGroup;
-			children = (
-				2A5733252547F57700E24732 /* Cart.h */,
-				2A5733262547F57700E24732 /* Info.plist */,
-			);
-			path = Cart;
-			sourceTree = "<group>";
-		};
-		4371D7B704FF88980E40CF24 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2A588541254BE639000F80AE /* Core.framework */,
-				2A58848C2549326D000F80AE /* Common.framework */,
-				0C2D36C93CD9915C6122642A /* Pods_Cart.framework */,
+				6CD4482AD89717659DE41272 /* Pods_Core.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C61A68984B7CD125D4FC435D /* Pods */ = {
+		2A58851E254BE426000F80AE = {
 			isa = PBXGroup;
 			children = (
-				010D85130C8CF7D70020F8F2 /* Pods-Cart.debug.xcconfig */,
-				8BA5DFBDCA3C577653121356 /* Pods-Cart.release.xcconfig */,
+				2A58852A254BE427000F80AE /* Core */,
+				2A588529254BE427000F80AE /* Products */,
+				CBABC033EE59E89EBFF1EA58 /* Pods */,
+				1410A70526D4C2F04F8EBC32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A588529254BE427000F80AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A588528254BE427000F80AE /* Core.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A58852A254BE427000F80AE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2A58854B254BE6B5000F80AE /* Domain */,
+				2A58852B254BE427000F80AE /* Core.h */,
+				2A58852C254BE427000F80AE /* Info.plist */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2A58854B254BE6B5000F80AE /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2A58854C254BE6BA000F80AE /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2A58854C254BE6BA000F80AE /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				2A588548254BE693000F80AE /* UseCaseType.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		CBABC033EE59E89EBFF1EA58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96159D4BFC6AF7BD92C63BEA /* Pods-Core.debug.xcconfig */,
+				192F8F4E7BAB61FBFA759845 /* Pods-Core.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../App/Pods;
@@ -91,51 +99,51 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2A57331D2547F57700E24732 /* Headers */ = {
+		2A588523254BE427000F80AE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A5733272547F57700E24732 /* Cart.h in Headers */,
+				2A58852D254BE427000F80AE /* Core.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2A5733212547F57700E24732 /* Cart */ = {
+		2A588527254BE427000F80AE /* Core */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A57332A2547F57700E24732 /* Build configuration list for PBXNativeTarget "Cart" */;
+			buildConfigurationList = 2A588530254BE427000F80AE /* Build configuration list for PBXNativeTarget "Core" */;
 			buildPhases = (
-				3DE00DA8B073CA76B1796746 /* [CP] Check Pods Manifest.lock */,
-				2A57331D2547F57700E24732 /* Headers */,
-				2A57331E2547F57700E24732 /* Sources */,
-				2A57331F2547F57700E24732 /* Frameworks */,
-				2A5733202547F57700E24732 /* Resources */,
+				3B3C9B2E141F71C601A39618 /* [CP] Check Pods Manifest.lock */,
+				2A588523254BE427000F80AE /* Headers */,
+				2A588524254BE427000F80AE /* Sources */,
+				2A588525254BE427000F80AE /* Frameworks */,
+				2A588526254BE427000F80AE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Cart;
-			productName = Cart;
-			productReference = 2A5733222547F57700E24732 /* Cart.framework */;
+			name = Core;
+			productName = Core;
+			productReference = 2A588528254BE427000F80AE /* Core.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2A5733192547F57700E24732 /* Project object */ = {
+		2A58851F254BE426000F80AE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1210;
 				TargetAttributes = {
-					2A5733212547F57700E24732 = {
-						CreatedOnToolsVersion = 12.0;
-						LastSwiftMigration = 1200;
+					2A588527254BE427000F80AE = {
+						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
 					};
 				};
 			};
-			buildConfigurationList = 2A57331C2547F57700E24732 /* Build configuration list for PBXProject "Cart" */;
+			buildConfigurationList = 2A588522254BE426000F80AE /* Build configuration list for PBXProject "Core" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,18 +151,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 2A5733182547F57700E24732;
-			productRefGroup = 2A5733232547F57700E24732 /* Products */;
+			mainGroup = 2A58851E254BE426000F80AE;
+			productRefGroup = 2A588529254BE427000F80AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A5733212547F57700E24732 /* Cart */,
+				2A588527254BE427000F80AE /* Core */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2A5733202547F57700E24732 /* Resources */ = {
+		2A588526254BE427000F80AE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -164,7 +172,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3DE00DA8B073CA76B1796746 /* [CP] Check Pods Manifest.lock */ = {
+		3B3C9B2E141F71C601A39618 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -179,7 +187,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Cart-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Core-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -189,18 +197,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2A57331E2547F57700E24732 /* Sources */ = {
+		2A588524254BE427000F80AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ADA6DDA254907F200794F3B /* CartView.swift in Sources */,
+				2A588549254BE693000F80AE /* UseCaseType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2A5733282547F57700E24732 /* Debug */ = {
+		2A58852E254BE427000F80AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,7 +272,7 @@
 			};
 			name = Debug;
 		};
-		2A5733292547F57700E24732 /* Release */ = {
+		2A58852F254BE427000F80AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -322,9 +330,9 @@
 			};
 			name = Release;
 		};
-		2A57332B2547F57700E24732 /* Debug */ = {
+		2A588531254BE427000F80AE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 010D85130C8CF7D70020F8F2 /* Pods-Cart.debug.xcconfig */;
+			baseConfigurationReference = 96159D4BFC6AF7BD92C63BEA /* Pods-Core.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -332,14 +340,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Cart/Info.plist;
+				INFOPLIST_FILE = Core/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dicoding.academy.Cart;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dicoding.academy.Core;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -348,9 +356,9 @@
 			};
 			name = Debug;
 		};
-		2A57332C2547F57700E24732 /* Release */ = {
+		2A588532254BE427000F80AE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BA5DFBDCA3C577653121356 /* Pods-Cart.release.xcconfig */;
+			baseConfigurationReference = 192F8F4E7BAB61FBFA759845 /* Pods-Core.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -358,14 +366,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Cart/Info.plist;
+				INFOPLIST_FILE = Core/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dicoding.academy.Cart;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dicoding.academy.Core;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -376,25 +384,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A57331C2547F57700E24732 /* Build configuration list for PBXProject "Cart" */ = {
+		2A588522254BE426000F80AE /* Build configuration list for PBXProject "Core" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A5733282547F57700E24732 /* Debug */,
-				2A5733292547F57700E24732 /* Release */,
+				2A58852E254BE427000F80AE /* Debug */,
+				2A58852F254BE427000F80AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A57332A2547F57700E24732 /* Build configuration list for PBXNativeTarget "Cart" */ = {
+		2A588530254BE427000F80AE /* Build configuration list for PBXNativeTarget "Core" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A57332B2547F57700E24732 /* Debug */,
-				2A57332C2547F57700E24732 /* Release */,
+				2A588531254BE427000F80AE /* Debug */,
+				2A588532254BE427000F80AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2A5733192547F57700E24732 /* Project object */;
+	rootObject = 2A58851F254BE426000F80AE /* Project object */;
 }
