@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 73a7adea69ad2a5bd49321a5c8b6ca87432ca9d4
+PODS:
+  - Core (1.0.1)
+
+DEPENDENCIES:
+  - Core
+
+SPEC REPOS:
+  https://github.com/gotamafandy/Fandy-Dicoding-CorePodSpecs:
+    - Core
+
+SPEC CHECKSUMS:
+  Core: f8b8d93924a50a43f7299f9e0f8fc92ba3e5fd22
+
+PODFILE CHECKSUM: 2f490ea9622e2aae063c0e1354c1f10d6c9e8936
 
 COCOAPODS: 1.10.0.rc.1

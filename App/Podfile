@@ -1,26 +1,25 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '14.0'
 
+source 'https://github.com/gotamafandy/Fandy-Dicoding-CorePodSpecs'
+
 use_frameworks!
 
 workspace 'Modularization'
 
 target 'App' do
-# Pods for App
 end
 
 target 'Common' do
-project '../Common/Common'
+  project '../Common/Common'
 end
 
 target 'Cart' do
-project '../Cart/Cart'
+  project '../Cart/Cart'
+  pod 'Core'
 end
 
 target 'Product' do
-project '../Product/Product'
-end
-
-target 'Core' do
-project '../Core/Core'
+  project '../Product/Product'
+  pod 'Core'
 end

@@ -4,28 +4,28 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-App.xcscheme</key>
+		<key>Core.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Pods-Cart.xcscheme</key>
+		<key>Pods-App.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>Pods-Common.xcscheme</key>
+		<key>Pods-Cart.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>Pods-Core.xcscheme</key>
+		<key>Pods-Common.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
