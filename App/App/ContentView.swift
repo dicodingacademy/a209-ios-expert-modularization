@@ -7,11 +7,22 @@
 
 import SwiftUI
 import Common
+import Cart
+import Product
 
 struct ContentView: View {
   var body: some View {
-    Text(hello)
-      .padding()
+    NavigationStack {
+      VStack {
+        NavigationLink(
+          destination: ProductView(action: {
+            CartView(action: { ProductDetailView() })
+          })
+        ) {
+          Text("Open Product")
+        }
+      }.navigationBarTitle("Modular")
+    }
   }
 }
 

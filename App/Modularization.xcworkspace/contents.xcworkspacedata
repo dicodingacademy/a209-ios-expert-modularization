@@ -10,4 +10,10 @@
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:../Cart/Cart.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Product/Product.xcodeproj">
+   </FileRef>
 </Workspace>

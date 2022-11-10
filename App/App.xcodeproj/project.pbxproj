@@ -13,6 +13,10 @@
 		2A5F45CD291CD18000216799 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5F45CC291CD18000216799 /* Preview Assets.xcassets */; };
 		2A5F45EA291CD4D000216799 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5F45E9291CD4D000216799 /* Common.framework */; };
 		2A5F45EB291CD4D000216799 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5F45E9291CD4D000216799 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2A5F461D291CE4F800216799 /* Cart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5F461B291CE4F800216799 /* Cart.framework */; };
+		2A5F461E291CE4F800216799 /* Cart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5F461B291CE4F800216799 /* Cart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2A5F461F291CE4F800216799 /* Product.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5F461C291CE4F800216799 /* Product.framework */; };
+		2A5F4620291CE4F800216799 /* Product.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5F461C291CE4F800216799 /* Product.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5E20C93FE250D0CD87FEC1FB /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FA7EC96B042096D4024F13 /* Pods_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2A5F461E291CE4F800216799 /* Cart.framework in Embed Frameworks */,
+				2A5F4620291CE4F800216799 /* Product.framework in Embed Frameworks */,
 				2A5F45EB291CD4D000216799 /* Common.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -38,6 +44,8 @@
 		2A5F45C9291CD18000216799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A5F45CC291CD18000216799 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A5F45E9291CD4D000216799 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5F461B291CE4F800216799 /* Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5F461C291CE4F800216799 /* Product.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Product.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		623C910150AA0BC4FCC45380 /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
 		B11BECA8885B0696227B5B13 /* Pods-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.debug.xcconfig"; path = "Target Support Files/Pods-App/Pods-App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,6 +57,8 @@
 			files = (
 				5E20C93FE250D0CD87FEC1FB /* Pods_App.framework in Frameworks */,
 				2A5F45EA291CD4D000216799 /* Common.framework in Frameworks */,
+				2A5F461F291CE4F800216799 /* Product.framework in Frameworks */,
+				2A5F461D291CE4F800216799 /* Cart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +114,8 @@
 		C09BE2509FDE35B79FBEEB09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2A5F461B291CE4F800216799 /* Cart.framework */,
+				2A5F461C291CE4F800216799 /* Product.framework */,
 				2A5F45E9291CD4D000216799 /* Common.framework */,
 				11FA7EC96B042096D4024F13 /* Pods_App.framework */,
 			);

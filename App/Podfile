@@ -11,3 +11,11 @@ end
 target 'Common' do
   project '../Common/Common'
 end
+
+target 'Cart' do
+  project '../Cart/Cart'
+end
+
+target 'Product' do
+  project '../Product/Product'
+end
