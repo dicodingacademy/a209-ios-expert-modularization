@@ -10,6 +10,7 @@
 		2A5F45FE291CE18900216799 /* Cart.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F45FD291CE18900216799 /* Cart.docc */; };
 		2A5F45FF291CE18900216799 /* Cart.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5F45FC291CE18900216799 /* Cart.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A5F4622291CE50700216799 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F4621291CE50700216799 /* CartView.swift */; };
+		2A5F4640291E36B700216799 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5F463F291E36B700216799 /* Common.framework */; };
 		656FF4AC719B21DF9F75128C /* Pods_Cart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B12F1A662EB5C0E53B7F6B /* Pods_Cart.framework */; };
 /* End PBXBuildFile section */
 
@@ -18,6 +19,8 @@
 		2A5F45FC291CE18900216799 /* Cart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cart.h; sourceTree = "<group>"; };
 		2A5F45FD291CE18900216799 /* Cart.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Cart.docc; sourceTree = "<group>"; };
 		2A5F4621291CE50700216799 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		2A5F463B291E369700216799 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5F463F291E36B700216799 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		432DB791025A7E74C19181C0 /* Pods-Cart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cart.release.xcconfig"; path = "Target Support Files/Pods-Cart/Pods-Cart.release.xcconfig"; sourceTree = "<group>"; };
 		6E4657BA91003BBC84687CE1 /* Pods-Cart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cart.debug.xcconfig"; path = "Target Support Files/Pods-Cart/Pods-Cart.debug.xcconfig"; sourceTree = "<group>"; };
 		F8B12F1A662EB5C0E53B7F6B /* Pods_Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +32,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				656FF4AC719B21DF9F75128C /* Pods_Cart.framework in Frameworks */,
+				2A5F4640291E36B700216799 /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +70,8 @@
 		5AE8D2763EE0CB169F086FD7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2A5F463F291E36B700216799 /* Common.framework */,
+				2A5F463B291E369700216799 /* Common.framework */,
 				F8B12F1A662EB5C0E53B7F6B /* Pods_Cart.framework */,
 			);
 			name = Frameworks;

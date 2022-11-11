@@ -16,6 +16,9 @@ public struct ProductView<Destination: View> : View {
 
   public var body: some View {
     VStack {
+      Image("Dicoding", bundle: Bundle(identifier: "com.dicoding.academy.Common"))
+        .resizable()
+        .frame(width: 240, height: 240)
       NavigationLink(destination: self.action()) {
         Text("Open Cart")
       }

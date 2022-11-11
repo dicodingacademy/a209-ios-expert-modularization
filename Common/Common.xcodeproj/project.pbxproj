@@ -10,7 +10,8 @@
 		2A5F45E2291CD42E00216799 /* Common.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F45E1291CD42E00216799 /* Common.docc */; };
 		2A5F45E3291CD42E00216799 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5F45E0291CD42E00216799 /* Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A5F45EE291CD4E400216799 /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F45ED291CD4E400216799 /* Hello.swift */; };
-		89460D5C2C910AC5DA3A72AF /* Pods_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18243EFC6A408ED25066D5BA /* Pods_Common.framework */; };
+		2A5F4633291E30CF00216799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5F4632291E30CF00216799 /* Assets.xcassets */; };
+		2A5F4638291E363500216799 /* Pods_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5F4635291E363500216799 /* Pods_Common.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,13 @@
 		2A5F45E0291CD42E00216799 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		2A5F45E1291CD42E00216799 /* Common.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Common.docc; sourceTree = "<group>"; };
 		2A5F45ED291CD4E400216799 /* Hello.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
+		2A5F4627291E2E4D00216799 /* Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5F462B291E2EB200216799 /* Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5F462C291E2EB800216799 /* Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5F462F291E2ED000216799 /* Pods_Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5F4632291E30CF00216799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A5F4634291E363500216799 /* Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5F4635291E363500216799 /* Pods_Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABD286ED9BD86BF867D86C2 /* Pods-Common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common.release.xcconfig"; path = "Target Support Files/Pods-Common/Pods-Common.release.xcconfig"; sourceTree = "<group>"; };
 		EC1E9340E9A89F5884B5BE53 /* Pods-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common.debug.xcconfig"; path = "Target Support Files/Pods-Common/Pods-Common.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -28,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89460D5C2C910AC5DA3A72AF /* Pods_Common.framework in Frameworks */,
+				2A5F4638291E363500216799 /* Pods_Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +46,7 @@
 		2A5F45D3291CD42E00216799 = {
 			isa = PBXGroup;
 			children = (
+				2A5F4632291E30CF00216799 /* Assets.xcassets */,
 				2A5F45DF291CD42E00216799 /* Common */,
 				2A5F45DE291CD42E00216799 /* Products */,
 				8BCF19261A432A7A5EF7C969 /* Pods */,
@@ -76,6 +85,12 @@
 		E4A00D21C465C8F739FCD2C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2A5F4634291E363500216799 /* Cart.framework */,
+				2A5F4635291E363500216799 /* Pods_Common.framework */,
+				2A5F462F291E2ED000216799 /* Pods_Common.framework */,
+				2A5F462C291E2EB800216799 /* Cart.framework */,
+				2A5F462B291E2EB200216799 /* Cart.framework */,
+				2A5F4627291E2E4D00216799 /* Cart.framework */,
 				18243EFC6A408ED25066D5BA /* Pods_Common.framework */,
 			);
 			name = Frameworks;
@@ -151,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5F4633291E30CF00216799 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

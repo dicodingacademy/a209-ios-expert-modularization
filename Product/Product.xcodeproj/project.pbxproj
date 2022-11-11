@@ -11,6 +11,7 @@
 		2A5F4615291CE1A500216799 /* Product.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5F4612291CE1A500216799 /* Product.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A5F4624291CE52F00216799 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F4623291CE52F00216799 /* ProductView.swift */; };
 		2A5F4626291CE5EC00216799 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F4625291CE5EC00216799 /* ProductDetailView.swift */; };
+		2A5F4644291E372200216799 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5F4643291E372200216799 /* Common.framework */; };
 		D0EE18081B94B80E15ADCF8A /* Pods_Product.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB4831B6F0F32BC536AFA5F /* Pods_Product.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +21,7 @@
 		2A5F4613291CE1A500216799 /* Product.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Product.docc; sourceTree = "<group>"; };
 		2A5F4623291CE52F00216799 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		2A5F4625291CE5EC00216799 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		2A5F4643291E372200216799 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A060D258EE8A82689E8EE6 /* Pods-Product.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Product.release.xcconfig"; path = "Target Support Files/Pods-Product/Pods-Product.release.xcconfig"; sourceTree = "<group>"; };
 		5DB4831B6F0F32BC536AFA5F /* Pods_Product.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Product.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB61E888836DC20E83E68607 /* Pods-Product.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Product.debug.xcconfig"; path = "Target Support Files/Pods-Product/Pods-Product.debug.xcconfig"; sourceTree = "<group>"; };
@@ -31,6 +33,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0EE18081B94B80E15ADCF8A /* Pods_Product.framework in Frameworks */,
+				2A5F4644291E372200216799 /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +82,7 @@
 		D51FB4B51DCB4DA16E8FE93A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2A5F4643291E372200216799 /* Common.framework */,
 				5DB4831B6F0F32BC536AFA5F /* Pods_Product.framework */,
 			);
 			name = Frameworks;
