@@ -19,6 +19,9 @@ public struct ProductView<Destination: View> : View {
       Image("Dicoding", bundle: Bundle(identifier: "com.dicoding.academy.Common"))
         .resizable()
         .frame(width: 240, height: 240)
+
+      Text("Hi, i'm using Quicksand as Font")
+           .font(.custom("Quicksand-Regular", size: 20))
       NavigationLink(destination: self.action()) {
         Text("Open Cart")
       }

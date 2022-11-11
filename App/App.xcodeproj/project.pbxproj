@@ -17,6 +17,11 @@
 		2A5F461E291CE4F800216799 /* Cart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5F461B291CE4F800216799 /* Cart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2A5F461F291CE4F800216799 /* Product.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5F461C291CE4F800216799 /* Product.framework */; };
 		2A5F4620291CE4F800216799 /* Product.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5F461C291CE4F800216799 /* Product.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2A5F464E291E5AE500216799 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A5F4649291E5AB300216799 /* Quicksand-Medium.ttf */; };
+		2A5F464F291E5AE500216799 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A5F464C291E5AB400216799 /* Quicksand-Bold.ttf */; };
+		2A5F4650291E5AE500216799 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A5F464A291E5AB400216799 /* Quicksand-Regular.ttf */; };
+		2A5F4651291E5AE500216799 /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A5F464D291E5AB400216799 /* Quicksand-SemiBold.ttf */; };
+		2A5F4652291E5AE500216799 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A5F464B291E5AB400216799 /* Quicksand-Light.ttf */; };
 		5E20C93FE250D0CD87FEC1FB /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FA7EC96B042096D4024F13 /* Pods_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +51,12 @@
 		2A5F45E9291CD4D000216799 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5F461B291CE4F800216799 /* Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5F461C291CE4F800216799 /* Product.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Product.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5F4649291E5AB300216799 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		2A5F464A291E5AB400216799 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		2A5F464B291E5AB400216799 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		2A5F464C291E5AB400216799 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		2A5F464D291E5AB400216799 /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		2A5F4653291E5CF300216799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		623C910150AA0BC4FCC45380 /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
 		B11BECA8885B0696227B5B13 /* Pods-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.debug.xcconfig"; path = "Target Support Files/Pods-App/Pods-App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +79,7 @@
 		2A5F45B9291CD17E00216799 = {
 			isa = PBXGroup;
 			children = (
+				2A5F4648291E596600216799 /* Fonts */,
 				2A5F45C4291CD17E00216799 /* App */,
 				2A5F45C3291CD17E00216799 /* Products */,
 				873E4FCC177D0760B6DD934C /* Pods */,
@@ -86,6 +98,7 @@
 		2A5F45C4291CD17E00216799 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				2A5F4653291E5CF300216799 /* Info.plist */,
 				2A5F45C5291CD17E00216799 /* AppApp.swift */,
 				2A5F45C7291CD17E00216799 /* ContentView.swift */,
 				2A5F45C9291CD18000216799 /* Assets.xcassets */,
@@ -100,6 +113,18 @@
 				2A5F45CC291CD18000216799 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A5F4648291E596600216799 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2A5F464C291E5AB400216799 /* Quicksand-Bold.ttf */,
+				2A5F464B291E5AB400216799 /* Quicksand-Light.ttf */,
+				2A5F4649291E5AB300216799 /* Quicksand-Medium.ttf */,
+				2A5F464A291E5AB400216799 /* Quicksand-Regular.ttf */,
+				2A5F464D291E5AB400216799 /* Quicksand-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		873E4FCC177D0760B6DD934C /* Pods */ = {
@@ -185,6 +210,11 @@
 			files = (
 				2A5F45CD291CD18000216799 /* Preview Assets.xcassets in Resources */,
 				2A5F45CA291CD18000216799 /* Assets.xcassets in Resources */,
+				2A5F464E291E5AE500216799 /* Quicksand-Medium.ttf in Resources */,
+				2A5F4652291E5AE500216799 /* Quicksand-Light.ttf in Resources */,
+				2A5F4651291E5AE500216799 /* Quicksand-SemiBold.ttf in Resources */,
+				2A5F464F291E5AE500216799 /* Quicksand-Bold.ttf in Resources */,
+				2A5F4650291E5AE500216799 /* Quicksand-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +401,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -400,6 +431,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
