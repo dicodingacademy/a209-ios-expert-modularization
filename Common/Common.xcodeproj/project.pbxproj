@@ -12,6 +12,7 @@
 		2A5F45EE291CD4E400216799 /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F45ED291CD4E400216799 /* Hello.swift */; };
 		2A5F4633291E30CF00216799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5F4632291E30CF00216799 /* Assets.xcassets */; };
 		2A5F4638291E363500216799 /* Pods_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5F4635291E363500216799 /* Pods_Common.framework */; };
+		2AC89D5229210BBC00B5F126 /* SunnyspellsRegular-MV9ze.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AC89D5129210BBC00B5F126 /* SunnyspellsRegular-MV9ze.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		2A5F4634291E363500216799 /* Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5F4635291E363500216799 /* Pods_Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABD286ED9BD86BF867D86C2 /* Pods-Common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common.release.xcconfig"; path = "Target Support Files/Pods-Common/Pods-Common.release.xcconfig"; sourceTree = "<group>"; };
+		2AC89D4B292102B300B5F126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2AC89D5129210BBC00B5F126 /* SunnyspellsRegular-MV9ze.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SunnyspellsRegular-MV9ze.otf"; sourceTree = "<group>"; };
 		EC1E9340E9A89F5884B5BE53 /* Pods-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common.debug.xcconfig"; path = "Target Support Files/Pods-Common/Pods-Common.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,6 +49,7 @@
 		2A5F45D3291CD42E00216799 = {
 			isa = PBXGroup;
 			children = (
+				2AC89D48292100B900B5F126 /* Fonts */,
 				2A5F4632291E30CF00216799 /* Assets.xcassets */,
 				2A5F45DF291CD42E00216799 /* Common */,
 				2A5F45DE291CD42E00216799 /* Products */,
@@ -65,11 +69,20 @@
 		2A5F45DF291CD42E00216799 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				2AC89D4B292102B300B5F126 /* Info.plist */,
 				2A5F45E0291CD42E00216799 /* Common.h */,
 				2A5F45E1291CD42E00216799 /* Common.docc */,
 				2A5F45ED291CD4E400216799 /* Hello.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		2AC89D48292100B900B5F126 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2AC89D5129210BBC00B5F126 /* SunnyspellsRegular-MV9ze.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		8BCF19261A432A7A5EF7C969 /* Pods */ = {
@@ -167,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A5F4633291E30CF00216799 /* Assets.xcassets in Resources */,
+				2AC89D5229210BBC00B5F126 /* SunnyspellsRegular-MV9ze.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,10 +351,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Common/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -365,10 +381,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Common/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
