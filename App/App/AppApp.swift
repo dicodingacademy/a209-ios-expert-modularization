@@ -35,28 +35,5 @@ extension UIFont {
 
   public static func loadFonts() {
     registerFont(withName: "SunnyspellsRegular-MV9ze", fileExtension: "otf")
-
-    // Returns a list of the user's preferred languages.
-    // Maybe more than (or none of) your app supports!
-    print(Locale.preferredLanguages)
-
-    // a subset of this bundle's localizations, re-ordered into the preferred order
-    // for this process's current execution environment; the main bundle's preferred localizations
-    // indicate the language (of text) the user is most likely seeing in the UI
-    print(Bundle.main.preferredLocalizations)
-
-    // The current running app language
-    print(Bundle.main.preferredLocalizations.first)
-
-    // list of language names this bundle appears to be localized to
-    print(Bundle.main.localizations)
-
-    print(Locale.current.language.languageCode!.identifier)
-
-    print(Locale.preferredLanguages.first!)
-
-    print("product_title".localized(identifier: "com.dicoding.academy.Product"))
-
   }
 }
-
