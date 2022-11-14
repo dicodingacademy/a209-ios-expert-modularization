@@ -35,5 +35,7 @@ extension UIFont {
 
   public static func loadFonts() {
     registerFont(withName: "SunnyspellsRegular-MV9ze", fileExtension: "otf")
+    print(Locale.current.language.languageCode!.identifier)
+    print(Locale.preferredLanguages.first)
   }
 }
