@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: f8a387a7ea4f91d75993f4f92900b0d04b48d005
+PODS:
+  - Core (1.0.0)
+
+DEPENDENCIES:
+  - Core
+
+SPEC REPOS:
+  https://github.com/dicodingacademy/Modularization-CorePodSpecs-Module.git:
+    - Core
+
+SPEC CHECKSUMS:
+  Core: b6fd1c0539d6bc45ab4405e325ed4cc6e2b89bbe
+
+PODFILE CHECKSUM: 2b7191f07a0b722712a39cbc276afdb775d7cb47
 
 COCOAPODS: 1.11.3

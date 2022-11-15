@@ -1,6 +1,8 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '16.0'
 
+source 'https://github.com/dicodingacademy/Modularization-CorePodSpecs-Module'
+
 use_frameworks!
 workspace 'Modularization'
 
@@ -14,12 +16,10 @@ end
 
 target 'Cart' do
   project '../Cart/Cart'
+  pod 'Core'
 end
 
 target 'Product' do
   project '../Product/Product'
-end
-
-target 'Core' do
-  project '../Core/Core'
+  pod 'Core'
 end
