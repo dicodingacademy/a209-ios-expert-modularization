@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2A39EC802922145400C95331 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A39EC7F2922144E00C95331 /* Localizable.strings */; };
-		2A39ECB9292240E600C95331 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A39ECB8292240E600C95331 /* Core.framework */; };
 		2A39ECC32922419B00C95331 /* GetProductUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A39ECC22922419B00C95331 /* GetProductUseCase.swift */; };
 		2A39ECD229225DA200C95331 /* GetProductPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A39ECCF29225D2B00C95331 /* GetProductPresenter.swift */; };
 		2A39ECD429225FBC00C95331 /* GetOtherProductUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A39ECD329225FBB00C95331 /* GetOtherProductUseCase.swift */; };
@@ -17,6 +16,7 @@
 		2A5F4624291CE52F00216799 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F4623291CE52F00216799 /* ProductView.swift */; };
 		2A5F4626291CE5EC00216799 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F4625291CE5EC00216799 /* ProductDetailView.swift */; };
 		2A5F4644291E372200216799 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5F4643291E372200216799 /* Common.framework */; };
+		2A62F3192924E07A00E4832E /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A62F3182924E07A00E4832E /* Core.framework */; platformFilter = ios; };
 		D0EE18081B94B80E15ADCF8A /* Pods_Product.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB4831B6F0F32BC536AFA5F /* Pods_Product.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,6 @@
 		2A39EC7C2922144E00C95331 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2A39EC7D2922144E00C95331 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2A39EC7E2922144E00C95331 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
-		2A39ECB8292240E600C95331 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A39ECC22922419B00C95331 /* GetProductUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProductUseCase.swift; sourceTree = "<group>"; };
 		2A39ECCF29225D2B00C95331 /* GetProductPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProductPresenter.swift; sourceTree = "<group>"; };
 		2A39ECD329225FBB00C95331 /* GetOtherProductUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetOtherProductUseCase.swift; sourceTree = "<group>"; };
@@ -34,6 +33,7 @@
 		2A5F4623291CE52F00216799 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		2A5F4625291CE5EC00216799 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		2A5F4643291E372200216799 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A62F3182924E07A00E4832E /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Core.framework; sourceTree = "<group>"; };
 		44A060D258EE8A82689E8EE6 /* Pods-Product.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Product.release.xcconfig"; path = "Target Support Files/Pods-Product/Pods-Product.release.xcconfig"; sourceTree = "<group>"; };
 		5DB4831B6F0F32BC536AFA5F /* Pods_Product.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Product.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB61E888836DC20E83E68607 /* Pods-Product.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Product.debug.xcconfig"; path = "Target Support Files/Pods-Product/Pods-Product.debug.xcconfig"; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0EE18081B94B80E15ADCF8A /* Pods_Product.framework in Frameworks */,
-				2A39ECB9292240E600C95331 /* Core.framework in Frameworks */,
+				2A62F3192924E07A00E4832E /* Core.framework in Frameworks */,
 				2A5F4644291E372200216799 /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,7 +131,7 @@
 		D51FB4B51DCB4DA16E8FE93A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2A39ECB8292240E600C95331 /* Core.framework */,
+				2A62F3182924E07A00E4832E /* Core.framework */,
 				2A5F4643291E372200216799 /* Common.framework */,
 				5DB4831B6F0F32BC536AFA5F /* Pods_Product.framework */,
 			);
@@ -309,6 +309,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "arm64 arm64e armv7 armv7s armv6 armv8";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -326,7 +327,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -373,6 +374,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "arm64 arm64e armv7 armv7s armv6 armv8";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -384,6 +386,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -403,6 +406,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -412,6 +420,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dicoding.academy.Product;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -431,6 +440,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -440,6 +454,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dicoding.academy.Product;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

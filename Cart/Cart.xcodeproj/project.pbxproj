@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A39ECB5292240DC00C95331 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A39ECB4292240DC00C95331 /* Core.framework */; };
 		2A5F45FE291CE18900216799 /* Cart.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F45FD291CE18900216799 /* Cart.docc */; };
 		2A5F45FF291CE18900216799 /* Cart.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5F45FC291CE18900216799 /* Cart.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A5F4622291CE50700216799 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F4621291CE50700216799 /* CartView.swift */; };
@@ -16,7 +15,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A39ECB4292240DC00C95331 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5F45F9291CE18900216799 /* Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5F45FC291CE18900216799 /* Cart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cart.h; sourceTree = "<group>"; };
 		2A5F45FD291CE18900216799 /* Cart.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Cart.docc; sourceTree = "<group>"; };
@@ -34,7 +32,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				656FF4AC719B21DF9F75128C /* Pods_Cart.framework in Frameworks */,
-				2A39ECB5292240DC00C95331 /* Core.framework in Frameworks */,
 				2A5F4640291E36B700216799 /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,7 +70,6 @@
 		5AE8D2763EE0CB169F086FD7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2A39ECB4292240DC00C95331 /* Core.framework */,
 				2A5F463F291E36B700216799 /* Common.framework */,
 				2A5F463B291E369700216799 /* Common.framework */,
 				F8B12F1A662EB5C0E53B7F6B /* Pods_Cart.framework */,
