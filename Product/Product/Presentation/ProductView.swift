@@ -7,7 +7,7 @@
 
 import SwiftUI
 import Common
-import Core
+import CorePackage
 
 public struct ProductView<
   Destination: View,

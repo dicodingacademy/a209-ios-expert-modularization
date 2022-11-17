@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import Core
+import CorePackage
 
 public struct GetOtherProductUseCase: UseCaseType {
   public typealias Request = String

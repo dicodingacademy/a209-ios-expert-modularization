@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A17306F29263C26001E5B1C /* CorePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 2A17306E29263C26001E5B1C /* CorePackage */; };
 		2A39EC83292217FA00C95331 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A39EC85292217FA00C95331 /* Localizable.strings */; };
 		2A5F45C6291CD17E00216799 /* AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F45C5291CD17E00216799 /* AppApp.swift */; };
 		2A5F45C8291CD17E00216799 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F45C7291CD17E00216799 /* ContentView.swift */; };
@@ -71,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E20C93FE250D0CD87FEC1FB /* Pods_App.framework in Frameworks */,
+				2A17306F29263C26001E5B1C /* CorePackage in Frameworks */,
 				2A5F45EA291CD4D000216799 /* Common.framework in Frameworks */,
 				2A5F461F291CE4F800216799 /* Product.framework in Frameworks */,
 				2A5F461D291CE4F800216799 /* Cart.framework in Frameworks */,
@@ -171,6 +173,9 @@
 			dependencies = (
 			);
 			name = App;
+			packageProductDependencies = (
+				2A17306E29263C26001E5B1C /* CorePackage */,
+			);
 			productName = App;
 			productReference = 2A5F45C2291CD17E00216799 /* App.app */;
 			productType = "com.apple.product-type.application";
@@ -201,6 +206,9 @@
 				Base,
 			);
 			mainGroup = 2A5F45B9291CD17E00216799;
+			packageReferences = (
+				2A17306D29263C26001E5B1C /* XCRemoteSwiftPackageReference "Modularization-Core-package" */,
+			);
 			productRefGroup = 2A5F45C3291CD17E00216799 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -301,6 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -361,6 +370,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -495,6 +505,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2A17306D29263C26001E5B1C /* XCRemoteSwiftPackageReference "Modularization-Core-package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dicodingacademy/Modularization-Core-package";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A17306E29263C26001E5B1C /* CorePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A17306D29263C26001E5B1C /* XCRemoteSwiftPackageReference "Modularization-Core-package" */;
+			productName = CorePackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2A5F45BA291CD17E00216799 /* Project object */;
 }

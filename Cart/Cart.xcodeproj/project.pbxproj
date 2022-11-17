@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A39ECB5292240DC00C95331 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A39ECB4292240DC00C95331 /* Core.framework */; };
+		2A17307229263CBE001E5B1C /* CorePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 2A17307129263CBE001E5B1C /* CorePackage */; };
 		2A5F45FE291CE18900216799 /* Cart.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F45FD291CE18900216799 /* Cart.docc */; };
 		2A5F45FF291CE18900216799 /* Cart.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5F45FC291CE18900216799 /* Cart.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A5F4622291CE50700216799 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F4621291CE50700216799 /* CartView.swift */; };
@@ -33,8 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A17307229263CBE001E5B1C /* CorePackage in Frameworks */,
 				656FF4AC719B21DF9F75128C /* Pods_Cart.framework in Frameworks */,
-				2A39ECB5292240DC00C95331 /* Core.framework in Frameworks */,
 				2A5F4640291E36B700216799 /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +120,9 @@
 			dependencies = (
 			);
 			name = Cart;
+			packageProductDependencies = (
+				2A17307129263CBE001E5B1C /* CorePackage */,
+			);
 			productName = Cart;
 			productReference = 2A5F45F9291CE18900216799 /* Cart.framework */;
 			productType = "com.apple.product-type.framework";
@@ -147,6 +150,9 @@
 				Base,
 			);
 			mainGroup = 2A5F45EF291CE18900216799;
+			packageReferences = (
+				2A17307029263CBE001E5B1C /* XCRemoteSwiftPackageReference "Modularization-Core-package" */,
+			);
 			productRefGroup = 2A5F45FA291CE18900216799 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -402,6 +408,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2A17307029263CBE001E5B1C /* XCRemoteSwiftPackageReference "Modularization-Core-package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dicodingacademy/Modularization-Core-package";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A17307129263CBE001E5B1C /* CorePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A17307029263CBE001E5B1C /* XCRemoteSwiftPackageReference "Modularization-Core-package" */;
+			productName = CorePackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2A5F45F0291CE18900216799 /* Project object */;
 }

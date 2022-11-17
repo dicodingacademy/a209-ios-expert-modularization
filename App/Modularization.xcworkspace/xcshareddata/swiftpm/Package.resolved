@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "modularization-core-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dicodingacademy/Modularization-Core-package",
+      "state" : {
+        "branch" : "main",
+        "revision" : "1c6f4869d49ad8509b8fbfb2054843bf0c534091"
+      }
+    }
+  ],
+  "version" : 2
+}

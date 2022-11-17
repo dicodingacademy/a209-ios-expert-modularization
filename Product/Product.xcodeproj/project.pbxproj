@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A17307529263CD5001E5B1C /* CorePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 2A17307429263CD5001E5B1C /* CorePackage */; };
 		2A39EC802922145400C95331 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A39EC7F2922144E00C95331 /* Localizable.strings */; };
-		2A39ECB9292240E600C95331 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A39ECB8292240E600C95331 /* Core.framework */; };
 		2A39ECC32922419B00C95331 /* GetProductUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A39ECC22922419B00C95331 /* GetProductUseCase.swift */; };
 		2A39ECD229225DA200C95331 /* GetProductPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A39ECCF29225D2B00C95331 /* GetProductPresenter.swift */; };
 		2A39ECD429225FBC00C95331 /* GetOtherProductUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A39ECD329225FBB00C95331 /* GetOtherProductUseCase.swift */; };
@@ -44,8 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A17307529263CD5001E5B1C /* CorePackage in Frameworks */,
 				D0EE18081B94B80E15ADCF8A /* Pods_Product.framework in Frameworks */,
-				2A39ECB9292240E600C95331 /* Core.framework in Frameworks */,
 				2A5F4644291E372200216799 /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,6 +167,9 @@
 			dependencies = (
 			);
 			name = Product;
+			packageProductDependencies = (
+				2A17307429263CD5001E5B1C /* CorePackage */,
+			);
 			productName = Product;
 			productReference = 2A5F460F291CE1A500216799 /* Product.framework */;
 			productType = "com.apple.product-type.framework";
@@ -196,6 +199,9 @@
 				Base,
 			);
 			mainGroup = 2A5F4605291CE1A500216799;
+			packageReferences = (
+				2A17307329263CD5001E5B1C /* XCRemoteSwiftPackageReference "Modularization-Core-package" */,
+			);
 			productRefGroup = 2A5F4610291CE1A500216799 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -471,6 +477,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2A17307329263CD5001E5B1C /* XCRemoteSwiftPackageReference "Modularization-Core-package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dicodingacademy/Modularization-Core-package";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A17307429263CD5001E5B1C /* CorePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A17307329263CD5001E5B1C /* XCRemoteSwiftPackageReference "Modularization-Core-package" */;
+			productName = CorePackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2A5F4606291CE1A500216799 /* Project object */;
 }
