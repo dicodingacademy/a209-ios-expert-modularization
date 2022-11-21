@@ -1,16 +1,13 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '14.0'
+platform :ios, '16.0'
 
 use_frameworks!
-
 workspace 'Modularization'
 
 target 'App' do
-# Pods for App
-
+  # Pods for App
 end
 
 target 'Common' do
-project '../Common/Common'
-
+  project '../Common/Common'
 end
